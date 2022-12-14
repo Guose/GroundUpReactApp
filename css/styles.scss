@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.gallery-results {
+    flex: 33.33%;
+    padding: 1rem;
+    border: 1px solid gray;
+}
